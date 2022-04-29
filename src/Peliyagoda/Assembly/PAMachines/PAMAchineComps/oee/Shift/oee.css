@@ -1,0 +1,62 @@
+.oee{
+    background-color: #D9D9D9;  
+    height: fit-content;
+    /* flex: 2; */
+    /* height: fit-content; */
+    width: auto;
+    padding: 2px;
+   
+}
+
+.oee_container{
+    height: fit-content;
+    width: auto;
+    border-radius: 10px; 
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    background-color: #D9D9D9;
+    margin: 0 0 0 10px;
+}
+
+.titlemainoee{
+    /* margin-left: 30px; */
+    margin:0 !important;
+    font-size: 1em;
+    text-align: right;
+  }
+
+.overall_gauge_chart{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    height: fit-content;
+    width: auto;
+}
+
+.oee_title{   
+    margin-left: 130px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.oee_icon{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    /* padding-top: 5px; */
+}
+
+.gauge_chart_container{
+    display:flex;
+}
+
+.oeechart{
+    /* padding-right: 10px; */
+    margin-top: 15px;
+    height: fit-content;
+}
+.playCircleOutIcon_oee{
+    margin-left: 300px;
+    margin-top: 5px;
+}
+  
+    
+   

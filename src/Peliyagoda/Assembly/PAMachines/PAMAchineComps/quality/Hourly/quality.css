@@ -1,0 +1,18 @@
+.quality{
+    background-color: #D9D9D9;  
+    height: fit-content;
+}
+
+.marginsx{
+    margin-top: 14px;
+    /* background-color: #F2F2F2; */
+    margin-bottom: 14px;
+}
+
+.marginsy{
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+

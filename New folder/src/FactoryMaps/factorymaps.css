@@ -1,0 +1,34 @@
+.map{
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    /* padding-left: 420px;
+    padding-right: 420px;*/
+    padding-top: 80px;
+    padding-bottom: 80px; 
+    justify-content: space-evenly;
+    
+}
+
+.mapx{
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    /* padding-left: 420px;
+    padding-right: 420px;*/
+    /* margin-top: 450px; */
+    padding-top: 275px;
+    padding-bottom: 80px; 
+    /* justify-content: space-evenly; */
+    
+}
+
+.leveloee{
+    padding: 100px;
+    justify-content:space-between;
+}
+
+.leveloeex{
+    padding: 10px;
+    justify-content:space-between;
+}

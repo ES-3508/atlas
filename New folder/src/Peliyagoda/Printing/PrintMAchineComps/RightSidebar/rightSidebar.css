@@ -1,0 +1,73 @@
+.sidebarCard{
+    background-color:#F2F2F2;
+    border-radius:0;
+    height: 100%;
+}
+.machineInfo{
+    background-color:#D9D9D9  ;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
+}
+.machineTitle{
+    max-width: fit-content;
+}
+.link{
+    color: black;
+}
+.link:hover {
+  color: black;
+  text-decoration: none;
+   
+  }
+.card-title{
+  
+    margin-top: 0.5rem;
+   
+    color: inherit;
+}
+
+.status{
+    width:2rem;
+    height: auto;
+    border-radius: 40%;
+ 
+
+}
+
+.profile{
+  width: 5rem;
+  height:auto;
+  
+  
+ 
+  border-radius: 50%; 
+  
+}
+.operatorRow{
+    display:flex;
+    justify-content: center;
+
+}
+.machineOperator{
+    margin-left: 40px;
+}
+.temp{
+   max-width: fit-content !important;
+    
+}
+.humid{
+    max-width: fit-content !important;
+}
+.alert{
+    display:flex;
+    justify-content: center;
+}
+.text-muted{
+    padding: 0 !important;
+}
+
+
+
+
+    
