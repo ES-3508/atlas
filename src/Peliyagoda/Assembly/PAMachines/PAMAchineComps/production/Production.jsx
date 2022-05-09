@@ -295,11 +295,7 @@ var valuebar, shiftvaluebar, topic, pathnmx, hourprogbar, valbar, shiftprogbar, 
               </Box>
             );
           }
-    
-          // LinearProgressWithLabel10.propTypes = {
-          //   value: PropTypes.object.isRequired,
-          // };
-    
+          
           function LinearProgressWithLabel11(props) {
             return (
               <Box  display="flex" alignItems="center">
@@ -319,11 +315,7 @@ var valuebar, shiftvaluebar, topic, pathnmx, hourprogbar, valbar, shiftprogbar, 
               </Box>
             );
           }
-    
-          // LinearProgressWithLabel11.propTypes = {
-          //   value: PropTypes.object.isRequired,
-          // };
-    
+
           function LinearProgressWithLabel12(props) {
             return (
               <Box  display="flex" alignItems="center">
@@ -343,10 +335,6 @@ var valuebar, shiftvaluebar, topic, pathnmx, hourprogbar, valbar, shiftprogbar, 
               </Box>
             );
           }
-        
-        // LinearProgressWithLabel.propTypes = {
-        //     value: PropTypes.object.isRequired,
-        // };
 
         function LinearProgressWithLabel13(props) {
           return (

@@ -21,6 +21,11 @@ function NavbarMain() {
         <CNavItem>
           <CNavLink href="/factory4"><h4>GENERAL</h4></CNavLink>
         </CNavItem>
+
+        <CNavItem>
+          <CNavLink href="/operators"><h4>OPERATORS</h4></CNavLink>
+        </CNavItem>
+        
       </CNav>
     )
 }

@@ -23,60 +23,15 @@ export default function Quality(props) {
     const [labelstoppage, setLabelstoppage] = useState();
     const [countstoppage, setCountstoppage] = useState();
 
-    if (props.pa01){
+    var x,t;
 
-        // console.log(props.pa01)
-        topic = '+/pa01/pa01dash/0101'
-
+    if(props.topic){
+        t=props.topic
+        //"data/pa07/pa07dash/0808";
+        x="data/"+t+'/'+t+"dash/"+t.slice(-2)+t.slice(-2)
+       
     }
-    if (props.pa02){
-
-        // console.log(props.pa02)
-        topic = '+/pa02/pa02dash/0202'
-
-    }
-    if (props.pa03){
-
-        // console.log(props.pa03)
-        topic = '+/pa03/pa03dash/0303'
-
-    }
-    if (props.pa04){
-
-        // console.log(props.pa04)
-        topic = '+/pa04/pa04dash/0404'
-
-    }
-    if (props.pa05){
-
-        // console.log(props.pa05)
-        topic = '+/pa05/pa05dash/0505'
-
-    }
-    if (props.pa06){
-
-        // console.log(props.pa06)
-        topic = '+/pa06/pa06dash/0606'
-
-    }
-    if (props.pa07){
-
-        // console.log(props.pa07)
-        topic = '+/pa07/pa07dash/0707'
-
-    }
-    if (props.pa08){
-
-        // console.log(props.pa08)
-        topic = '+/pa08/pa08dash/0808'
-
-    }
-    if (props.pa09){
-
-        // console.log(props.pa09)
-        topic = '+/pa09/pa09dash/0909'
-
-    }
+    
 
     useEffect(() => {
             
@@ -84,7 +39,7 @@ export default function Quality(props) {
 
         client.on("connect", () => {
             // console.log("connected");
-            client.subscribe(topic);
+            client.subscribe(x);
         });
 
         client.on('message', (topic, message) => {

@@ -21,6 +21,16 @@ const ENDPOINT2 = "http://127.0.0.1:5008";
 
 export default function Oee(props) {
 
+  var x,t;
+
+    if(props.topic){
+        t=props.topic
+        //"data/pa07/pa07dash/0808";
+        x="data/"+t+'/'+t+"dash/"+t.slice(-2)+t.slice(-2)
+       
+    }
+    
+
     const today = new Date();
       const hour = today.getHours();
       const minute = today.getMinutes();
@@ -141,7 +151,7 @@ export default function Oee(props) {
     
         client.on("connect", () => {
             // console.log("connected");
-            client.subscribe(topicx);
+            client.subscribe(x);
         });
     
         client.on('message', (topic, message) => {
@@ -347,7 +357,7 @@ export default function Oee(props) {
                     <Row >
                         <div className="oeechart">
                     
-                        <ResponsiveContainer width="100%" aspect={5 / 1.8}>
+                        {/* <ResponsiveContainer width="100%" aspect={5 / 1.8}>
                             <LineChart data={data}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey='name' />
@@ -355,7 +365,7 @@ export default function Oee(props) {
                             <Tooltip />
                             <Line type="monotone" dataKey='value' stroke="#003366" strokeWidth={2} activeDot={{ r: 8 }} />
                             </LineChart>
-                        </ResponsiveContainer>
+                        </ResponsiveContainer> */}
                         
                         </div>
                     </Row>

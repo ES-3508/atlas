@@ -36,31 +36,31 @@ export default function UserList() {
                 <map name="factory1map">
 
                     <div>
-                        <Link to={{ pathname: `/pa01home/${assem.id1}`}}><area target="_blank" alt="PA01" title="PA01" href="PA01" coords="754,69,628,34" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa01home/${assem.id1}`}}><area target="_blank" alt="PA01" title="PA01" href="PA01" coords="754,69,628,34" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa02home/${assem.id2}`}}><area target="_blank" alt="PA02" title="PA02" href="PA02" coords="651,128,783,94" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa02home/${assem.id2}`}}><area target="_blank" alt="PA02" title="PA02" href="PA02" coords="651,128,783,94" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa03home/${assem.id3}`}}><area target="_blank" alt="PA03" title="PA03" href="PA03" coords="642,218,776,179" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa03home/${assem.id3}`}}><area target="_blank" alt="PA03" title="PA03" href="PA03" coords="642,218,776,179" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa06home/${assem.id6}`}}><area target="_blank" alt="PA06" title="PA06" href="PA06" coords="617,253,776,284" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa06home/${assem.id6}`}}><area target="_blank" alt="PA06" title="PA06" href="PA06" coords="617,253,776,284" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa08home/${assem.id8}`}}><area target="_blank" alt="PA08" title="PA08" href="PA08" coords="621,360,777,394" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa08home/${assem.id8}`}}><area target="_blank" alt="PA08" title="PA08" href="PA08" coords="621,360,777,394" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa04home/${assem.id4}`}}><area target="_blank" alt="PA04" title="PA04" href="PA04" coords="782,265,804,369" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa04home/${assem.id4}`}}><area target="_blank" alt="PA04" title="PA04" href="PA04" coords="782,265,804,369" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa07home/${assem.id7}`}}><area target="_blank" alt="PA07" title="PA07" href="PA07" coords="629,487,770,520" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa07home/${assem.id7}`}}><area target="_blank" alt="PA07" title="PA07" href="PA07" coords="629,487,770,520" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa05home/${assem.id5}`}}><area target="_blank" alt="PA05" title="PA05" href="PA05" coords="638,552,770,585" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa05home/${assem.id5}`}}><area target="_blank" alt="PA05" title="PA05" href="PA05" coords="638,552,770,585" shape="rect"/></Link>
                     </div>
                     <div>
-                        <Link to={{ pathname: `/pa09home/${assem.id9}`}}><area target="_blank" alt="PA09" title="PA09" href="PA09" coords="654,659,781,627" shape="rect"/></Link>
+                        <Link to={{ pathname: `/machine/pa09home/${assem.id9}`}}><area target="_blank" alt="PA09" title="PA09" href="PA09" coords="654,659,781,627" shape="rect"/></Link>
                     </div>
                     {/* <div>
                         <Link to={{ pathname: `/pa06home/${assem.id3}`}}><area target="_blank" alt="PA_Cir1" title="PA_Cir1" href="PA_Cir1" coords="791,501,17" shape="circle"/></Link>

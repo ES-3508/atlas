@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 // import Sidebar from "../PAMachineComps/sidebar/Sidebar"
 import RightSidebar1 from '../PAMAchineComps/RightSidebar/RightSidebar1';
 import Controller1 from "../../PAMachines/PAMAchineComps/controller_sidebar/Controller1";
@@ -32,7 +32,7 @@ import DocketPA06 from "../../PAMachines/PAMAchineComps/production/tabels/tablec
 import DocketPA07 from "../../PAMachines/PAMAchineComps/production/tabels/tablecompsfunc07"
 import DocketPA08 from "../../PAMachines/PAMAchineComps/production/tabels/tablecompsfunc08"
 import DocketPA09 from "../../PAMachines/PAMAchineComps/production/tabels/tablecompsfunc09"
-import Docket from "../PAMachinePage/Docket"
+import Docket from "../PAMachinePage/Doc"
 import { Container, Row, Col } from 'react-bootstrap';
 
 
@@ -40,14 +40,23 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function App() {
 
   const  {id1}  = useParams();
-  const  {id2}  = useParams();
-  const  {id3}  = useParams();
-  const  {id4}  = useParams();
-  const  {id5}  = useParams();
-  const  {id6}  = useParams();
-  const  {id7}  = useParams();
-  const  {id8}  = useParams();
-  const  {id9}  = useParams();
+  const  {machine}  = useParams();
+
+  // const  {id2}  = useParams();
+  // const  {id3}  = useParams();
+  // const  {id4}  = useParams();
+  // const  {id5}  = useParams();
+  // const  {id6}  = useParams();
+  // const  {id7}  = useParams();
+  // const  {id8}  = useParams();
+  // const  {id9}  = useParams();
+  
+  useEffect(() => {
+
+    console.log(id1,machine);
+
+  }
+,[])
 
   return (
     <div>
@@ -55,22 +64,16 @@ export default function App() {
         <Router>
 
             <Switch>
-            <Route path='/pa01productiondocket' component={DocketPA01} />
-            <Route path='/pa02productiondocket' component={DocketPA02} />
-            <Route path='/pa03productiondocket' component={DocketPA03} />
-            <Route path='/pa04productiondocket' component={DocketPA04} />
-            <Route path='/pa05productiondocket' component={DocketPA05} />
-            <Route path='/pa06productiondocket' component={DocketPA06} />
-            <Route path='/pa07productiondocket' component={DocketPA07} />
-            <Route path='/pa08productiondocket' component={Docket} />
-            <Route path='/pa09productiondocket' component={DocketPA09} />
+            
+            <Route path='/:machine/productiondocket' component={Docket} />
+            
             <Route path= '/pa04oee'  component={PA04OEE } />  
 
               <Container fluid className="appContainer" >
                 <Row xs={1} md={2} className="mainRow" >
                   <Col className="sidebarCol" xs={12} md={4} lg={3} >
                     
-                  <Route path='/pa01home' component={RightSidebar1} />
+                  {/* <Route path='/pa01home' component={RightSidebar1} />
                   <Route path='/pa02home' component={RightSidebar2} />
                   <Route path='/pa03home' component={RightSidebar3} />
                   <Route path='/pa04home' component={RightSidebar4} />
@@ -88,11 +91,12 @@ export default function App() {
                   <Route path='/pa06controller' component={Controller6} />
                   <Route path='/pa07controller' component={Controller7} />
                   <Route path='/pa08controller' component={Controller8} />
-                  <Route path='/pa09controller' component={Controller9} />
+                  <Route path='/pa09controller' component={Controller9} /> */}
+                  <RightSidebar8 topic={id1} />
 
                   </Col>
                   <Col  className="Main" xs={12}  md={8} lg={9}>
-                    <HomePA04 idm1={id1} idm2={id2} idm3={id3} idm4={id4} idm5={id5} idm6={id6} idm7={id7} idm8={id8} idm9={id9} />
+                    <HomePA04 topic={id1} />
                   </Col>
                 </Row>
 

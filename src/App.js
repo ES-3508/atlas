@@ -12,6 +12,8 @@ import Fact3 from "./FactoryMaps/factory3"
 import Fact4 from "./FactoryMaps/factory4"
 import Docket from './Peliyagoda/Assembly/PAMachines/PAMachinePage/Docket';
 import {useEffect} from 'react';
+import Operator from './Peliyagoda/Assembly/PAMachines/PAMAchineComps/operators/Operator'
+import Profile from './Peliyagoda/Assembly/PAMachines/PAMAchineComps/operators/Profile'
 
 
 export default function App() {
@@ -40,10 +42,12 @@ export default function App() {
               <Route path='/factory2' exact component={Fact2} />
               <Route path='/factory3' exact component={Fact3} />
               <Route path='/factory4' exact component={Fact4} />
+              <Route path='/operators' exact component={Operator} />
                 <div className="homeView">
 
-                  <Route path= "/pa01home/:id1" component={PA04} />
-                  <Route path= "/pa02home/:id2" component={PA04} />
+                  <Route path= "/machine/:machine/:id1" component={PA04} />
+                  <Route path= "/operators/:number" component={Profile} />
+                  {/* <Route path= "/pa02home/:id2" component={PA04} />
                   <Route path= "/pa03home/:id3" component={PA04} />
                   <Route path= "/pa04home/:id4" component={PA04} />
                   <Route path= "/pa05home/:id5" component={PA04} />
@@ -56,8 +60,8 @@ export default function App() {
                   <Route path= "/pri29home/:id29" component={PRI04} />
                   <Route path= "/pri30home/:id30" component={PRI04} />
                   <Route path= "/pri31home/:id31" component={PRI04} />
-                  <Route path= "/pri33home/:id33" component={PRI04} />
-                  <Route path="/pa08productiondocket" component={Docket}/>
+                  <Route path= "/pri33home/:id33" component={PRI04} /> */}
+                  {/* <Route path="/:machine/productiondocket" component={Docket}/> */}
                   {/* <Route path= "/pri06home/:id6" component={PRI04} />
                   <Route path= "/pri07home/:id7" component={PRI04} />
                   <Route path= "/pri08home/:id8" component={PRI04} />

@@ -18,9 +18,10 @@ export default class TimeToTime extends Component {
     state = {
         progress: []
       }
+      
     
       componentDidMount() {
-        axios.get(`http://localhost:4000/pa08/time`)
+        axios.get(`http://localhost:4000/pa08/time/`)
           .then(res => {
             const persons = res.data;
             this.setState({ persons });

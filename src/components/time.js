@@ -62,7 +62,8 @@ export default class Time extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`http://192.168.8.110:4000/pa08/time`)
+    const url= `http://localhost:5000/pa/time/`+this.props.topic
+    axios.get(url)
       .then(res => {
         const post = res.data;
         this.setState({ post });
@@ -72,6 +73,7 @@ export default class Time extends React.Component {
   render() {
     return (
       <Row >
+          
         {
           this.state.post
             .map(person =>

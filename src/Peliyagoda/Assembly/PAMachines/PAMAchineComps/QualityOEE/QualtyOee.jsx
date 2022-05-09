@@ -55,7 +55,7 @@ for (let i = 0; i < 7; i++) {
             <Row>
                 <Card className="Performance_title">
                     <Card.Body>
-                    <Card.Title>QualityOee</Card.Title>
+                    <Card.Title>Quality</Card.Title>
 
                     
                     </Card.Body>

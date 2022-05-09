@@ -11,6 +11,9 @@ let proddocketPA08 = new Schema({
     Time_to: {
         type: String
     },
+    machine:{
+        type:String
+    },
     Production_Plan_Quantity: {
         type: String,
         default: 0
@@ -40,7 +43,7 @@ let proddocketPA08 = new Schema({
         default: 0
     }
 }, {
-        collection: 'timeto'
+        collection: 'timeToTime'
     })
 
 module.exports = mongoose.model('docketPA08', proddocketPA08)

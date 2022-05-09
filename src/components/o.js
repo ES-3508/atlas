@@ -76,7 +76,16 @@ const useStyles = makeStyles({
 });
 
 
-export default function Production() {
+export default function Production(props) {
+
+    var x,t;
+
+    if(props.topic){
+        t=props.topic
+        //"data/pa07/pa07dash/0808";
+        x="data/"+t+'/'+t+"dash/"+t.slice(-2)+t.slice(-2)
+       
+    }
 
     const today = new Date();
     const hour = today.getHours();
@@ -97,9 +106,10 @@ export default function Production() {
     useEffect(() => {
 
         const client = mqtt.connect('ws://192.168.8.110:8083/mqtt')
-        const topic1="data/pa08/pa08dash/0808";
+        //const topic1="data/pa08/pa08dash/0808";
+        
         client.on('connect', function() {
-        client.subscribe(topic1);
+        client.subscribe(x);
         console.log("Client has subscribed")
         });
 
@@ -136,7 +146,8 @@ export default function Production() {
                             <h3>PRODUCTION</h3>
                         </Col>
                         <Col className="production_icon">
-                            <Link className="link" to="/pa08productiondocket" >
+                            <Link className="link" to={"/"+t+"/productiondocket"} >
+                                {/* /:machine/productiondocket */}
                                 <PlayCircleOutlineIcon/>
                             </Link>
                         </Col>
@@ -206,7 +217,7 @@ export default function Production() {
                             <Card className="progressbar">
                                 <Card.Body>
                                     <div className={classes.root}>
-                                        <Time/>
+                                        <Time topic={props.topic}/>
                                     </div>
                                 </Card.Body>
                             </Card>

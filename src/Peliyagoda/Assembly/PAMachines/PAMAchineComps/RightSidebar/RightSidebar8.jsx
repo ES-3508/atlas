@@ -12,19 +12,35 @@ import { Table, TableCell, TableContainer, TableHead, TableRow } from '@mui/mate
 //import socketIOClient from "socket.io-client";
 import axios from "axios"
 import mqtt from 'mqtt'
+
+import Operator from '../operators/New'
 const ENDPOINT = "http://127.0.0.1:5008";
 
 
-export default function RightSidebar() {
+export default function RightSidebar(props) {
+
+
 
     var showdate = new Date();
     var displaytodaysdate = showdate.getDate() + ' ' + (showdate.toLocaleString('default', {month:'long'})) + ' ' + showdate.getFullYear();
     // var date = showdate.toDateString();
+    var t 
 
     const [latitude, setLatitude] = useState(0);
     const [longitude, setLongitude] = useState(0);
     const [temperature, setTemperature] = useState(0);
     const [humid, setHumidity] = useState(0);
+    const [topic,setTopic] = useState();
+
+    var x;
+
+    if(props.topic){
+        t=props.topic
+        //"data/pa07/pa07dash/0808";
+        x="data/"+t+'/'+t+"dash/"+t.slice(-2)+t.slice(-2)
+       
+    }
+    
 
     const savePositionToState = (position) => {
         setLatitude(position.coords.latitude);
@@ -50,10 +66,15 @@ export default function RightSidebar() {
   
     useEffect(() => {
 
+        if(props.topic){
+            setTopic(props.topic)
+            t=props.topic
+        }
+
         const client = mqtt.connect('ws://192.168.8.110:8083/mqtt')
         const topic1="data/pa08/pa08dash/0808";
         client.on('connect', function() {
-        client.subscribe(topic1);
+        client.subscribe(x);
         console.log("Client has subscribed")
         });
 
@@ -72,8 +93,6 @@ export default function RightSidebar() {
         
     }
 
-
-
     return (
 
         <Card className="sidebarCard"  >
@@ -82,9 +101,11 @@ export default function RightSidebar() {
                 <Card className="machineInfo" >
                     <Card.Body>
                         <Row>
-                            <Col className="machineTitle"> <Card.Title> <Link className="link" to={{ pathname: '/pa08controller' }} >
-                                <h4>PA08</h4> </Link> </Card.Title> </Col>
-                            <Col><img src={status} alt="machine status" className="status mr-2" /> </Col>
+                            <Col className="machineTitle"> 
+                            <Card.Title> <Link className="link" to={{ pathname: '/pa08controller' }} >
+                                <h4>{t}</h4> </Link> </Card.Title> </Col>
+                                {x}
+                            {/* <Col><img src={status} alt="machine status" className="status mr-2" /> </Col>
                             <Col >
                                 <Row className="operatorRow">
                                     <img src={profile} alt="machine operator" className="profile" />
@@ -92,7 +113,8 @@ export default function RightSidebar() {
                                 <Row>
                                     <p className="text-muted text-center "><h4>Azzam</h4></p>
                                 </Row>
-                            </Col>
+                            </Col> */}
+                            <Operator topic={props.topic}/>
                         </Row>
 
 
@@ -153,6 +175,12 @@ export default function RightSidebar() {
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left">Status</TableCell>
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="center">:</TableCell>
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left"> {value==0 ? <div> Stop</div> : <div>Runing</div> }</TableCell>
+                  </TableRow>
+
+                  <TableRow className="sidebarListItem">
+                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left">production</TableCell>
+                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="center">:</TableCell>
+                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left"> {value}</TableCell>
                   </TableRow>
 {/* 
                   <TableRow className="sidebarListItem">
@@ -226,7 +254,9 @@ export default function RightSidebar() {
             </Card.Body>
             <Card.Footer className="text-muted">
                 <Row className="alert">
-                    <Col className="temp"><img src={temp} alt="temperature" /></Col> <Col className="tempCount" ><h5>{temperature}</h5></Col>
+                    <Col className="temp"><img src={temp} alt="temperature" /></Col> <Col className="tempCount" ><h5>{temperature} </h5></Col>
+                    <Col className="humid" ><img src={humidity} alt="humidity" className="humidCount" /> </Col> <Col ><h5>{humid}%</h5></Col>
+                    <Col className="humid" ><img src={humidity} alt="humidity" className="humidCount" /> </Col> <Col ><h5>{humid}%</h5></Col>
                     <Col className="humid" ><img src={humidity} alt="humidity" className="humidCount" /> </Col> <Col ><h5>{humid}%</h5></Col>
                 </Row>
             </Card.Footer>
