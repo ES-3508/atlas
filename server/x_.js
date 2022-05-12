@@ -5,6 +5,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const { response } = require('express');
 const mqtt = require('mqtt');
+const operatorRouter = require('./routes/pa08routes');
 
 const schedule = require('node-schedule');
 const app = express();
@@ -148,4 +149,6 @@ app.use('/pa', pa);
 //app.listen(4000, function() {
   //  console.log("Server is running on Port: " + 5000);
 //});
+
+app.use('/users', operatorRouter);
 app.listen(5000)
