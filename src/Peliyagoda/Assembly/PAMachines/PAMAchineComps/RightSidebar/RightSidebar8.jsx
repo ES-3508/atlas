@@ -1,6 +1,7 @@
 import React from 'react'
 import "./rightSidebar.css"
 import { Card, Row, Col } from 'react-bootstrap';
+import ReactRoundedImage from "react-rounded-image";
 import { useEffect, useState } from 'react';
 import status from "../../../../../images/green_button.png";
 import profile from "../../../../../images/operator/operator.jpg";
@@ -103,8 +104,8 @@ export default function RightSidebar(props) {
                         <Row>
                             <Col className="machineTitle"> 
                             <Card.Title> <Link className="link" to={{ pathname: '/pa08controller' }} >
-                                <h4>{t}</h4> </Link> </Card.Title> </Col>
-                                {x}
+                                <h4>{t.toUpperCase()}</h4> </Link> </Card.Title> </Col>
+                                
                             {/* <Col><img src={status} alt="machine status" className="status mr-2" /> </Col>
                             <Col >
                                 <Row className="operatorRow">
@@ -174,7 +175,7 @@ export default function RightSidebar(props) {
                   <TableRow className="sidebarListItem">
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left">Status</TableCell>
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="center">:</TableCell>
-                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left"> {value==0 ? <div> Stop</div> : <div>Runing</div> }</TableCell>
+                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left"> {value>0 ?  <div>Runing</div> :<div> Stop</div>}</TableCell>
                   </TableRow>
 
                   <TableRow className="sidebarListItem">

@@ -67,13 +67,12 @@ export default function PrintMachinehome(props) {
                setTopics33(topicsx);
           }
           // if( props.idm6){
-
           //      // console.log(props.idm6)
           //      topicsx = "+/pa06/pa06dash/0606"
           //      setTopics6(topicsx);
           // }
           // if( props.idm7){
-
+               
           //      // console.log(props.idm7)
           //      topicsx = "+/pa07/pa04dash/0707"
           //      setTopics7(topicsx);

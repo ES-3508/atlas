@@ -2,9 +2,9 @@ import axios from "axios";
 import React,{ useEffect, useState } from "react";
 import {Card,Button,CardGroup,Col,Image, Row, Container}from 'react-bootstrap'
 import mqtt from 'mqtt/dist/mqtt'
-
+import ReactRoundedImage from "react-rounded-image";
 const baseURL = `http://localhost:5001/users/img`;
-
+//import { Card, Row, Col } from 'react-bootstrap';
 export default function App(props) {
 
   var x,t;
@@ -15,7 +15,7 @@ export default function App(props) {
         x="data/"+t+'/'+t+"dash/"+t.slice(-2)+t.slice(-2)       
     }
   const [post, setPost] = useState(null);
-  const [number, setNumber] = useState();
+  const [number, setNumber] = useState("13786");
 
   const handleJsonMessage = (json) => {      
     setNumber(json.operator)
@@ -61,28 +61,37 @@ export default function App(props) {
       {post.map(item => {
         if(item.epfNum===number){
           return (
-            <Col>
+            <Row className="justify-content-md-center">
                 <CardGroup>              
                   <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img  roundedCircle='true'	
- align='center' variant="top" src={'/images/'+item.photo} /> */}
- <Col xs={6} md={4}>
-      <Image src={'/images/'+item.photo}  style={{
-        maxHeight: 300,
-        margin: "0 auto",
-        background: "#fff",
-        padding: "30px 10px"
-      }}/>
+    <Container>
+      <Row>
+      <Col >
+      <ReactRoundedImage
+          image={'/images/'+item.photo}
+          roundedColor="white"
+          imageWidth="120"
+          imageHeight="120"
+          roundedSize="13"
+          borderRadius="70"
+        />
     </Col>
-                      <Card.Body>
-                        <Card.Title>{item.name }</Card.Title>
-                        <Card.Text>
-                          {item.epfNum }
-                        </Card.Text>
-                      </Card.Body>
+    <Col>
+      <Card.Body>
+        <Card.Title>{item.name }</Card.Title>
+        <Card.Text>
+          {item.epfNum }
+        </Card.Text>
+      </Card.Body>
+    </Col>
+           
+
+      </Row>
+    </Container>                
+              
                    </Card>  
                 </CardGroup>
-              </Col>
+              </Row>
               
             
               
