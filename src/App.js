@@ -45,7 +45,8 @@ export default function App() {
               <Route path='/operators' exact component={Operator} />
                 <div className="homeView">
 
-                  <Route path= "/machine/:machine/:id1" component={PA04} />
+                  <Route path= "/machine/assembly/:machine/:id1" component={PA04} />
+                  <Route path= "/machine/printing/:machine/:id1" component={PA04} />
                   <Route path= "/operators/:number" component={Profile} />
                   {/* <Route path= "/pa02home/:id2" component={PA04} />
                   <Route path= "/pa03home/:id3" component={PA04} />

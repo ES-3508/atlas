@@ -17,12 +17,13 @@ export default function Doc() {
     const handleSubmit = (e) => {
         e.preventDefault();
         str=datex.getFullYear().toString()+"-0"+(datex.getMonth()+1).toString()+'-' +datex.getDate().toString()
+        console.log(str)
         
         const data = {
             date: str
           };
         //formData.append('x',1)
-        const url= 'http://localhost:5000/pa/time/'+machine+'/'+str
+        const url= 'http://192.168.8.110:5000/pa/time/'+machine+'/'+str
         // axios.post(url, data)
         //      .then(res => {
         //         console.log(res);
@@ -69,7 +70,7 @@ export default function Doc() {
                 <th>Date</th>
                 <th>Time from</th>
                 <th>Time to</th>
-                <th>Production Plan Quantity </th>
+                <th>Oee </th>
                 <th>Production Plan Cumm  </th>
                 <th>Final Output</th>
                 <th>Cummilative Output</th>
@@ -90,11 +91,11 @@ export default function Doc() {
             <td>{ item.Date }</td>
             <td>{ item.Time_from }</td>
             <td>{ item.Time_to}</td>
-            <td>{item.Production_Plan_Quantity}</td>
+            <td>{item.Oee}</td>
             <td>{item.Cummilative_Pla}</td>
             <td>{item.Final_Output}</td>
             <td>{item.Cummilative_Outputj}</td>
-            <td>{item.Cummilative_Output}</td>
+            <td>{item.operator}</td>
             <td>{item.Refill_Rejection}</td>
             <td>{item.Plug_Rejection}</td>
             <td>{item.Cap_Rejection}</td>

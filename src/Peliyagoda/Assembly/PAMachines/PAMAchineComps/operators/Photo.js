@@ -19,7 +19,7 @@ export default class Photos extends Component {
       }
     
       componentDidMount() {
-        axios.get(`http://localhost:5000/users/`)
+        axios.get(`http://192.168.8.110:5000/users/`)
           .then(res => {
             const post = res.data;
             this.setState({ post });

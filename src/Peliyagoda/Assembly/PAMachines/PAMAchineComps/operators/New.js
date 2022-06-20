@@ -3,7 +3,7 @@ import React,{ useEffect, useState } from "react";
 import {Card,Button,CardGroup,Col,Image, Row, Container}from 'react-bootstrap'
 import mqtt from 'mqtt/dist/mqtt'
 
-const baseURL = `http://localhost:5001/users/img`;
+const baseURL = `http://192.168.8.110:5000/users/img`;
 
 export default function App(props) {
 
@@ -15,7 +15,7 @@ export default function App(props) {
         x="data/"+t+'/'+t+"dash/"+t.slice(-2)+t.slice(-2)       
     }
   const [post, setPost] = useState(null);
-  const [number, setNumber] = useState();
+  const [number, setNumber] = useState("");
 
   const handleJsonMessage = (json) => {      
     setNumber(json.operator)
@@ -28,7 +28,7 @@ export default function App(props) {
   useEffect(() => {
     axios.get(baseURL).then((response) => {
       setPost(response.data);
-      console.log(number)
+      //console.log(number)
     });
 
     const client = mqtt.connect('ws://192.168.8.110:8083/mqtt')
@@ -55,7 +55,8 @@ export default function App(props) {
 
   return (
     <div>
-     <h1> Operator</h1> 
+     <h1> Operator</h1>
+     {number}
     
 
       {post.map(item => {
@@ -67,12 +68,7 @@ export default function App(props) {
                     {/* <Card.Img  roundedCircle='true'	
  align='center' variant="top" src={'/images/'+item.photo} /> */}
  <Col xs={6} md={4}>
-      <Image src={'/images/'+item.photo}  style={{
-        maxHeight: 300,
-        margin: "0 auto",
-        background: "#fff",
-        padding: "30px 10px"
-      }}/>
+      <Image src={'/images/'+item.photo} />
     </Col>
                       <Card.Body>
                         <Card.Title>{item.name }</Card.Title>

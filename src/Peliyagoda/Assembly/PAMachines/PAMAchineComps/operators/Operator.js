@@ -37,14 +37,14 @@ const Operator = () => {
         formData.append('name', newUser.name);
         formData.append('epfNum',newUser.epfNum)
 
-        axios.post('http://192.168.8.11:5000/users/add/', formData)
+        axios.post('http://192.168.8.110:5000/users/add/', formData)
              .then(res => {
                 console.log(res);
              })
              .catch(err => {
                 console.log(err);
              });
-        axios.get("http://192.168.8.11:5000/users/img")
+        axios.get("http://192.168.8.110:5000/users/img")
         .then(res => res.json())
         .then(data=> this.setOperators({data}))
     }

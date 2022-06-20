@@ -62,7 +62,10 @@ export default class Time extends React.Component {
   }
 
   componentDidMount() {
-    const url= `http://localhost:5000/pa/time/`+this.props.topic
+    var datex= new Date()
+    var str=datex.getFullYear().toString()+"-0"+(datex.getMonth()+1).toString()+'-' +datex.getDate().toString()
+        console.log(str)
+    const url= `http://192.168.8.110:5000/pa/time/`+this.props.topic+"/"+str
     axios.get(url)
       .then(res => {
         const post = res.data;
@@ -77,9 +80,11 @@ export default class Time extends React.Component {
         {
           this.state.post
             .map(person =>
-              <Row className="rowWidth">              
+                <Row className="rowWidth">              
                 <LinearProgressWithLabe value={person.Final_Output} Time_from={person.Time_from} Time_to={person.Time_to} valueS={person.Cummilative_Output } />
-              </Row>          
+              </Row>
+              
+                        
             )
         }
       </Row>

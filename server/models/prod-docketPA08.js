@@ -11,6 +11,18 @@ let proddocketPA08 = new Schema({
     Time_to: {
         type: String
     },
+    Oee:{
+        type: String
+    },
+    OeeQuality:{
+        type: String
+    },
+    OeeAvailability:{
+        type: String
+    },
+    Operatpor:{
+        type: String
+    },
     machine:{
         type:String
     },

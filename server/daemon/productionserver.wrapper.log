@@ -1,0 +1,340 @@
+2022-05-25 14:50:52 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 14:50:53 - Started 11940
+2022-05-25 16:12:28 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 16:12:28 - Started 5116
+2022-05-25 16:18:53 - Stopping productionserver.exe
+2022-05-25 16:18:53 - ProcessKill 5116
+2022-05-25 16:18:53 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-25 16:19:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 16:19:18 - Started 5168
+2022-05-25 16:32:12 - Stopping productionserver.exe
+2022-05-25 16:32:12 - ProcessKill 5168
+2022-05-25 16:32:12 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-25 16:32:32 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 16:32:32 - Started 4992
+2022-05-25 16:45:45 - Stopping productionserver.exe
+2022-05-25 16:45:45 - ProcessKill 4992
+2022-05-25 16:45:46 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-25 16:46:09 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 16:46:09 - Started 4856
+2022-05-25 16:52:21 - Stopping productionserver.exe
+2022-05-25 16:52:21 - ProcessKill 4856
+2022-05-25 16:52:21 - Found child process: 4880 Name: conhost.exe
+2022-05-25 16:52:21 - Found child process: 5624 Name: node.exe
+2022-05-25 16:52:21 - Stopping process 4880
+2022-05-25 16:52:21 - Send SIGINT 4880
+2022-05-25 16:52:21 - SIGINT to 4880 failed - Killing as fallback
+2022-05-25 16:52:22 - Stopping process 5624
+2022-05-25 16:52:22 - Send SIGINT 5624
+2022-05-25 16:52:22 - SIGINT to 5624 failed - Killing as fallback
+2022-05-25 16:52:22 - Stopping process 4856
+2022-05-25 16:52:22 - Send SIGINT 4856
+2022-05-25 16:52:22 - SIGINT to 4856 failed - Killing as fallback
+2022-05-25 16:52:22 - Finished productionserver.exe
+2022-05-25 16:52:24 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 16:52:24 - Started 12932
+2022-05-25 16:53:42 - Stopping productionserver.exe
+2022-05-25 16:53:42 - ProcessKill 12932
+2022-05-25 16:53:42 - Found child process: 4164 Name: conhost.exe
+2022-05-25 16:53:42 - Found child process: 9660 Name: node.exe
+2022-05-25 16:53:42 - Stopping process 4164
+2022-05-25 16:53:42 - Send SIGINT 4164
+2022-05-25 16:53:42 - SIGINT to 4164 failed - Killing as fallback
+2022-05-25 16:53:42 - Stopping process 9660
+2022-05-25 16:53:42 - Send SIGINT 9660
+2022-05-25 16:53:42 - SIGINT to 9660 failed - Killing as fallback
+2022-05-25 16:53:42 - Stopping process 12932
+2022-05-25 16:53:42 - Send SIGINT 12932
+2022-05-25 16:53:42 - SIGINT to 12932 failed - Killing as fallback
+2022-05-25 16:53:42 - Finished productionserver.exe
+2022-05-25 16:54:12 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-25 16:54:12 - Started 13452
+2022-05-26 12:12:35 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-26 12:12:35 - Started 5040
+2022-05-26 14:19:27 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-26 14:19:27 - Started 4920
+2022-05-27 12:10:39 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-27 12:10:39 - Started 4852
+2022-05-27 12:11:55 - Stopping productionserver.exe
+2022-05-27 12:11:55 - ProcessKill 4852
+2022-05-27 12:11:55 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-27 12:12:24 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-27 12:12:24 - Started 5760
+2022-05-27 13:26:43 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-27 13:26:44 - Started 5004
+2022-05-28 17:41:47 - Stopping productionserver.exe
+2022-05-28 17:41:47 - ProcessKill 5004
+2022-05-28 17:41:47 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-28 17:42:08 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-28 17:42:08 - Started 4872
+2022-05-30 12:58:32 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-30 12:58:32 - Started 5116
+2022-05-30 13:25:14 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-30 13:25:14 - Started 5016
+2022-05-31 16:39:40 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-31 16:39:40 - Started 5012
+2022-05-31 17:05:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-31 17:05:47 - Started 4864
+2022-05-31 17:09:12 - Stopping productionserver.exe
+2022-05-31 17:09:12 - ProcessKill 4864
+2022-05-31 17:09:13 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-31 17:09:35 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-31 17:09:35 - Started 4760
+2022-05-31 17:11:25 - Stopping productionserver.exe
+2022-05-31 17:11:25 - ProcessKill 4760
+2022-05-31 17:11:25 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-31 17:11:45 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-31 17:11:45 - Started 4900
+2022-05-31 17:13:22 - Stopping productionserver.exe
+2022-05-31 17:13:22 - ProcessKill 4900
+2022-05-31 17:13:23 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-05-31 17:13:44 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-31 17:13:44 - Started 4852
+2022-05-31 18:31:20 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-31 18:31:20 - Started 5000
+2022-06-01 10:14:42 - Stopping productionserver.exe
+2022-06-01 10:14:42 - ProcessKill 5000
+2022-06-01 10:14:42 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-01 10:15:05 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-01 10:15:05 - Started 5284
+2022-06-01 10:25:28 - Stopping productionserver.exe
+2022-06-01 10:25:28 - ProcessKill 5284
+2022-06-01 10:25:28 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-01 10:25:48 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-01 10:25:49 - Started 4920
+2022-06-01 10:32:40 - Stopping productionserver.exe
+2022-06-01 10:32:40 - ProcessKill 4920
+2022-06-01 10:32:40 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-01 10:33:03 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-01 10:33:03 - Started 5200
+2022-06-01 22:31:03 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-01 22:31:03 - Started 5084
+2022-06-02 11:29:32 - Stopping productionserver.exe
+2022-06-02 11:29:32 - ProcessKill 5084
+2022-06-02 11:29:33 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-02 11:29:56 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-02 11:29:56 - Started 5284
+2022-06-02 11:47:43 - Stopping productionserver.exe
+2022-06-02 11:47:43 - ProcessKill 5284
+2022-06-02 11:47:44 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-02 11:48:04 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-02 11:48:04 - Started 4888
+2022-06-02 16:12:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-02 16:12:47 - Started 5092
+2022-06-02 17:20:40 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-02 17:20:40 - Started 4932
+2022-06-02 20:12:36 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-02 20:12:36 - Started 4800
+2022-06-03 08:05:26 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-03 08:05:26 - Started 5048
+2022-06-03 16:12:00 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-03 16:12:00 - Started 4972
+2022-06-03 17:16:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-03 17:16:18 - Started 4844
+                                                                                                                                                                                                                                                                                                                                                                                                                                   2022-06-03 20:14:38 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-03 20:14:38 - Started 4948
+2022-06-03 20:18:30 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-03 20:18:30 - Started 4780
+2022-06-06 08:40:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-06 08:40:47 - Started 5064
+2022-06-06 17:00:55 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-06 17:00:55 - Started 4940
+2022-06-06 17:24:29 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-06 17:24:29 - Started 5056
+2022-06-06 17:33:51 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-06 17:33:51 - Started 4980
+2022-06-07 08:07:01 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-07 08:07:01 - Started 4984
+2022-06-07 09:31:48 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-07 09:31:48 - Started 4904
+2022-06-07 16:51:32 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-07 16:51:32 - Started 5160
+2022-06-07 19:51:19 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-07 19:51:19 - Started 4964
+2022-06-08 08:05:59 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-08 08:06:00 - Started 5088
+2022-06-08 08:07:13 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-08 08:07:13 - Started 4260
+                                                                                                                                                                                                                                                                                                                                                                                                                                   2022-06-08 19:45:13 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-08 19:45:13 - Started 4964
+2022-06-08 19:46:11 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-08 19:46:11 - Started 5088
+2022-06-08 21:53:02 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-08 21:53:02 - Started 4948
+2022-06-09 16:56:02 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-09 16:56:02 - Started 4960
+2022-06-09 17:33:23 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-09 17:33:23 - Started 4908
+2022-06-09 19:54:33 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-09 19:54:33 - Started 4924
+2022-06-11 08:30:57 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-11 08:30:57 - Started 4820
+                                                                                                                                                                                                                                                                                                                                                                                                                                   2022-06-13 07:20:02 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-13 07:20:02 - Started 3904
+2022-06-13 15:15:21 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-13 15:15:21 - Started 5112
+2022-06-13 17:34:19 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-13 17:34:19 - Started 5084
+                                                                                                                                                                                                                                                                                                                                                                                                                                   2022-06-14 12:40:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-14 12:40:18 - Started 5016
+2022-06-15 15:16:20 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-15 15:16:20 - Started 4936
+2022-06-15 17:32:40 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-15 17:32:40 - Started 4844
+2022-06-16 15:10:22 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-16 15:10:22 - Started 4488
+2022-06-16 17:33:19 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-16 17:33:19 - Started 5168
+2022-06-17 19:44:10 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-17 19:44:10 - Started 5092
+2022-06-18 13:12:20 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-18 13:12:20 - Started 5132
+2022-06-18 18:36:40 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-18 18:36:40 - Started 4904
+2022-06-18 18:49:17 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-18 18:49:17 - Started 5028
+2022-06-20 07:52:08 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\APM\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "C:\Users\APM\Desktop\New folder (2)\2022_05_12\atlas\server\x_.js" --scriptoptions= --log "productionServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-20 07:52:08 - Started 5192

@@ -114,6 +114,7 @@ export default function RightSidebar(props) {
                                     <p className="text-muted text-center "><h4>Azzam</h4></p>
                                 </Row>
                             </Col> */}
+                            
                             <Operator topic={props.topic}/>
                         </Row>
 
@@ -174,7 +175,7 @@ export default function RightSidebar(props) {
                   <TableRow className="sidebarListItem">
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left">Status</TableCell>
                     <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="center">:</TableCell>
-                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left"> {value==0 ? <div> Stop</div> : <div>Runing</div> }</TableCell>
+                    <TableCell sx={{ paddingTop: 1.5 , paddingBottom: 1.5 }} align="left"> {value>0 ? <div> Runing</div> : <div>Stop</div> }</TableCell>
                   </TableRow>
 
                   <TableRow className="sidebarListItem">

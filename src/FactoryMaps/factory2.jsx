@@ -38,7 +38,7 @@ export default function level2() {
                 {topicsprint.map((print) => (
                 <map name="factory2map">
 
-                <div><Link to={{ pathname: `/machine/pri01home/${print.id1}`}}><area target="_blank" alt="FM08" title="FM08" href="1" coords="348,219,372,115" shape="rect"/></Link></div>
+                <div><Link to={{ pathname: `/machine/printing/fm08home/fm08`}}><area target="_blank" alt="FM08" title="FM08" href="1" coords="348,219,372,115" shape="rect"/></Link></div>
                 {/* <div><Link to={{ pathname: `/pri02home/${print.id2}`}}><area target="_blank" alt="2" title="2" href="2" coords="390,220,413,117" shape="rect"/></Link></div>
                 <div><Link to={{ pathname: `/pri03home/${print.id3}`}}><area target="_blank" alt="3" title="3" href="3" coords="432,225,459,120" shape="rect"/></Link></div>
                 <div><Link to={{ pathname: `/pri04home/${print.id4}`}}><area target="_blank" alt="4" title="4" href="4" coords="475,224,500,120" shape="rect"/></Link></div>
@@ -66,11 +66,11 @@ export default function level2() {
                 <div><Link to={{ pathname: '/pri04home'}}><area target="_blank" alt="26" title="26" href="26" coords="366,292,487,328" shape="rect"/></Link></div>
                 <div><Link to={{ pathname: '/pri04home'}}><area target="_blank" alt="27" title="27" href="27" coords="707,114,738,211" shape="rect"/></Link></div>
                 <div><Link to={{ pathname: '/pri04home'}}><area target="_blank" alt="28" title="28" href="28" coords="621,317,668,367" shape="rect"/></Link></div> */}
-                <div><Link to={{ pathname: `/machine/pri29home/${print.id29}`}}><area target="_blank" alt="WEB4" title="WEB4" href="29" coords="935,252,1051,294" shape="rect"/></Link></div>
-                <div><Link to={{ pathname: `/machine/pri30home/${print.id30}`}}><area target="_blank" alt="WEB2" title="WEB2" href="30" coords="938,322,1052,358" shape="rect"/></Link></div>
-                <div><Link to={{ pathname: `/machine/pri31home/${print.id31}`}}><area target="_blank" alt="BM02" title="BM02" href="31" coords="757,152,823,152,824,209,996,211,993,165,866,165,865,143,842,143,841,112,757,112" shape="poly"/></Link></div>
+                <div><Link to={{ pathname: `/machine/printing/web04home/web04`}}><area target="_blank" alt="WEB4" title="WEB4" href="29" coords="935,252,1051,294" shape="rect"/></Link></div>
+                <div><Link to={{ pathname: `/machine/printing/web02home/web02`}}><area target="_blank" alt="WEB2" title="WEB2" href="30" coords="938,322,1052,358" shape="rect"/></Link></div>
+                <div><Link to={{ pathname: `/machine/printing/bm02home/bm02`}}><area target="_blank" alt="BM02" title="BM02" href="31" coords="757,152,823,152,824,209,996,211,993,165,866,165,865,143,842,143,841,112,757,112" shape="poly"/></Link></div>
                 {/* <div><Link to={{ pathname: '/pri32home'}}><area target="_blank" alt="BM01" title="BM01" href="32" coords="783,54,839,56,842,90,1021,88,1021,53,888,56,888,39,866,39,865,16,783,15" shape="poly"/></Link></div> */}
-                <div><Link to={{ pathname: `/machine/pri33home/${print.id33}`}}><area target="_blank" alt="UV1" title="UV1" href="33" coords="78,195,79,174,39,173,40,88,13,89,12,194" shape="poly"/></Link></div>
+                <div><Link to={{ pathname: `/machine/uv01home/uv01`}}><area target="_blank" alt="UV1" title="UV1" href="33" coords="78,195,79,174,39,173,40,88,13,89,12,194" shape="poly"/></Link></div>
                 {/* <div><Link to={{ pathname: '/pri04home'}}><area target="_blank" alt="34" title="34" href="34" coords="13,73,33,73,34,35,116,36,119,9,17,13" shape="poly"/></Link></div>
                 <div><Link to={{ pathname: '/pri04home'}}><area target="_blank" alt="35" title="35" href="35" coords="412,366,556,360,556,314,541,315,537,334,484,342,478,329,429,331,426,342,412,342" shape="poly"/></Link></div> */}
                
